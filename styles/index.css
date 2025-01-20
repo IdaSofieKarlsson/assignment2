@@ -1,0 +1,17 @@
+h2 {
+    color: darkblue;
+
+}
+footer {
+    color: darkkhaki;
+}
+/*taggar att använda*/
+/*ordning och prioritet
+default sheet, obs ordning
+prio: id, class, tag
+olika proporties på moment*/
+
+/*best practice: 
+inte intern style, endast externt style sheet
+bra ordning
+!important endast i nödfall*/
