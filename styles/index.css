@@ -1,17 +1,68 @@
+body {
+    /*
+    Until I have cracked opacity on background-image, a background-color will have to do. 
+    The code block works fine, the problem is text color, the background is too dark. 
+    background-image: url(../images/raa_an.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200vh;*/
+    background-color: rgb(242, 242, 242);
+    /*In case there is some text not covered by other rules*/
+    color:  rgb(7, 119, 153);
+}
+
+header, footer {
+    background-color: rgb(39, 63, 73);
+    color: rgb(242, 242, 242);
+}
+
+h1 {
+    color: rgb(242, 242, 242);
+    text-align: center;
+    font-size: 50px;
+}
+
 h2 {
-    color: darkblue;
+    color:  rgb(39, 63, 73);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+p {
+    color:  rgb(7, 119, 153);
+}
+
+.company, .name_school {
+    color:  rgb(7, 119, 153);
+    font-size: 30px;
 
 }
-footer {
-    color: darkkhaki;
+.position, .program {
+    color:  rgb(7, 119, 153);
+    font-size: 25px;
 }
-/*taggar att använda*/
-/*ordning och prioritet
-default sheet, obs ordning
-prio: id, class, tag
-olika proporties på moment*/
 
-/*best practice: 
-inte intern style, endast externt style sheet
-bra ordning
-!important endast i nödfall*/
+.date {
+    color:  rgb(7, 119, 153);
+    font-size: 20px;
+}
+
+a:link, a:visited, a:active, li {
+    color:  rgb(242, 242, 242);
+}
+
+img, video {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(7, 119, 153);
+    border-radius: 10px 25px 10px 25px;
+    box-shadow: rgb(55, 181, 177);
+}
+
+.dark_text {
+    color: rgb(39, 63, 73);
+}
+
